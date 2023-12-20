@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="quiz">
+            <div class="upper">
+                <h1>Let's see! Who's the <span style="color: #F79F79;">BEST</span></h1>
+                <h2>QUIZ GAME</h2>
+            </div>
+            <div class="middle">
+                <h2>Q1: Which of the following CSS property is used to make the text bold?</h2>
+                <div class="qs1">
+                    <label onclick="clicked()" for="option1"><input type="radio" id="option1" name="answer"> bold: true</label>
+                </div>
+                <div class="qs2">
+                    <label onclick="clicked2()" for="option2"><input type="radio" id="option2" name="answer"> text-decoration: bold</label>
+                </div>
+                <div class="qs3">
+                    <label onclick="clicked3()" for="option3"><input type="radio" id="option3" name="answer"> font-weight: bold</label>
+                </div>
+                <div class="qs4">
+                    <label onclick="clicked4()" for="option4"><input type="radio" id="option4" name="answer"> style: bold</label>
+                </div>
+            </div>
+            <div class="lower">
+                <a href="#" onclick="getInput()"><button>Submit</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background: url('https://images.unsplash.com/photo-1702234867439-bec43ed4e369?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.form{
+    height: 80%;
+    width: 40%;
+    background-color: #ffffff25;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+    padding: 1vw;
+}
+.top{
+    height: 10%;
+    width: 100%;
+}
+.middle{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid #fff; */
+    display: flex;
+}
+.top h1{
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.middle form{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1.5vw 5vw;
+}
+.middle form input{
+    width: 140%;
+    padding: 0.5vw 1vw;
+    margin: 1vw 0;
+    border-radius: 50px;
+    border: none;
+    background-color: #00000027;
+    color: #fff;
+}
+.middle form input::placeholder{
+    color: #fff;
+}
+.bottom{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.bottom a button{
+    padding: 0.7vw 6vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    cursor: pointer;
+    margin: 0.5vw;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #C9C9EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .quiz {
+    height: 85vh;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.quiz .upper {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upper h2 {
+    color: #F79F79;
+}
+
+.quiz .middle {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.middle form {
+    color: #000;
+}
+
+.middle form label {
+    display: inline-flex; /* Updated to inline-flex */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+.middle .qs1{
+    width: 100%;
+    height: 15%;
+    /* background-color: #C9C9EE; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    transition: all ease 0.3s;
+}
+.middle .qs2{
+    width: 100%;
+    height: 15%;
+    /* background-color: #F79F79; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    transition: all ease 0.3s;
+}
+.middle .qs3{
+    width: 100%;
+    height: 15%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+    transition: all ease 0.3s;
+}
+.middle .qs4{
+    width: 100%;
+    height: 15%;
+    /* background-color: #dadada; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 1px solid #000; */
+    transition: all ease 0.3s;
+}
+.middle .qs1:hover{
+    background-color: #82C09A;
+}
+.middle .qs2:hover{
+    background-color: #82C09A;
+}
+.middle .qs3:hover{
+    background-color: #82C09A;
+}
+.middle .qs4:hover{
+    background-color: #82C09A;
+}
+.middle label{
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.4);
+    /* color: #4C4C4C; */
+}
+
+.quiz .lower {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #82C09A;
+    
+}
+.lower a button{
+    padding: 0.7vw 6vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    cursor: pointer;
+    margin-bottom: 3.7vw;
+    background-color: #4C4C4C;
+}
